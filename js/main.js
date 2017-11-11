@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  // $('section#screenshots a').on('click', function() {
-  //   $('div#modal img').attr('src', $(this).attr('data-image-url'));
-  // });
+  $('section#screenshots a').on('click', function() {
+    $('div#modal img').attr('src', $(this).attr('data-image-url'));
+  });
 
   // ----- Navbar -----
   var nav = $('.navbar-fixed-top');
@@ -24,9 +24,54 @@ $(document).ready(function() {
   });
   // ----- END Navbar -----
 
-});
+  // ----- Way Point -----
+  $('#about .blue-circle').waypoint(function() {
+    // console.log("You have entered the section");
+      $(this.element).addClass('animated fadeInUp');
+    }, {
+      offset: '50%'
+    });
+
+  $('#large-font-Reg').waypoint(function() {
+      $(this.element).addClass('animated tada');
+    }, {
+      offset: '50%'
+    });
+
+  $('#download div.phone img').waypoint(function() {
+      $(this.element).addClass('animated fadeInRight');
+    }, {
+      offset: '50%'
+    });
+
+  $('#download .platforms > div').waypoint(function() {
+      $(this.element).addClass('animated fadeInUp');
+    }, {
+      offset: '50%'
+    });
+
+}); // END .ready function
+
 
 // ----- Navbar Smooth Scroll -----
 var scroll = new SmoothScroll('a[href*="#about"]');
+var scroll = new SmoothScroll('a[href*="#feature"]');
 var scroll = new SmoothScroll('a[href*="#video"]');
+var scroll = new SmoothScroll('a[href*="#screenshots"]');
 var scroll = new SmoothScroll('a[href*="#support"]');
+
+
+// ----- END Navbar Smooth Scroll -----
+
+
+
+
+
+
+
+
+
+
+
+
+// ----- END Navbar Smooth Scroll -----

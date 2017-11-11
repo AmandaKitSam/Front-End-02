@@ -126,20 +126,59 @@ h3:after {
   padding-bottom: 18%;
 }
 
+.large-font {
+  font-size: 34px;
+}
+
 
 /*--------------- Video | Feature Section ---------------*/
 section#video {
-  background-color: #f5f5f5;
+  background: rgb(226,77,147); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(226,77,147,1) 0%, rgba(35,139,224,1) 79%, rgba(32,124,202,1) 100%, rgba(125,185,232,1) 100%, rgba(32,124,202,1) 102%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(226,77,147,1) 0%,rgba(35,139,224,1) 79%,rgba(32,124,202,1) 100%,rgba(125,185,232,1) 100%,rgba(32,124,202,1) 102%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(226,77,147,1) 0%,rgba(35,139,224,1) 79%,rgba(32,124,202,1) 100%,rgba(125,185,232,1) 100%,rgba(32,124,202,1) 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e24d93', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-/* space between each information */
-.item-feature {
-  margin-bottom: 60px;
+/*section#video div .my-video {
+  position: relative;
+  padding-bottom: 35%;
+}*/
+
+section#video iframe {
+  box-sizing: border-box;
+  background: url('../img/phone-frame-2.png') center center no-repeat;
+  background-size: contain;
+  padding: 2.7% 15.5% 2.7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94.9%;
 }
 
-section.video .blue-circle {
-  width: 50%;
-  padding-bottom: 50%;
+section#video div .my-video2 {
+  position: relative;
+  padding-bottom: 41%;
+}
+
+section#video .text-white {
+  color: #ffffff;
+}
+
+section#video h2:after, h3:after {
+  background-color: #ffffff;
+}
+
+.video-large-font {
+  font-size: 30px;
+}
+
+.btn-waistlist {
+  background: #e00068;
+  color: #ffffff;
+  padding: 10px 50px;
+  font-size: 1.3em;
+  border-radius: 30px;
 }
 
 
@@ -212,14 +251,16 @@ section#download .download {
   top: 50px;
 }
 
-/* Download for iOS | Android */
-section#download .platforms > div {
+/*--- Download for iOS | Android ---*/
+/*section#download .platforms > div {*/
+.download-button {
   border-radius: 20px;
   border: 3px solid #1783D6;
-  padding: 11px 0;
+  padding: 11px 15px 11px 50px;
   font-size: 1.2em;
   position: relative;
   padding-left: 50px;
+  background-color: transparent;
 }
 
 section#download .platforms i {
@@ -272,6 +313,7 @@ section#support .btn-my-color {
   color: #ffffff;
   padding: 10px 50px;
   font-size: 1.4em;
+  border-radius: 30px;
 }
 
 /* placeholder color */
@@ -296,3 +338,84 @@ footer p {
   padding: 20px 0;
   margin: 0 auto;
 }
+
+
+/*--------------- Animations ---------------*/
+.animation1,
+.animation2,
+.animation3,
+.animation4,
+.animation5,
+.animation6,
+.animation7 {
+  opacity: 0;
+}
+
+.animation1 {
+
+}
+.animation2 {
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+.animation3 {
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+}
+
+
+/*--------------------- Media Queries ---------------------*/
+@media only screen and (max-width : 991px) {
+  .download-button {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width : 767px) {
+  .download-button {
+    width: 65%;
+  }
+  section#download .platforms i {
+    font-size: 25px;
+  }
+  .downloads-empty {
+    background-size: auto 60vw; /* go as width; there's also vh - go as height */
+  }
+}
+
+
+/*-------------- Smartphones --------------*/
+@media only screen and (max-width : 480px) {
+  .navbar-default .navbar-collapse.in {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 0;
+  }
+  .navbar-default.effect .navbar-collapse.in {
+    background-color: transparent;
+  }
+
+  /*------ Carousel Section ------*/
+  section#slider {
+    min-height: 0;
+  }
+  section#slider .item {
+    height: 400px;
+  }
+  section#slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  /*------ Download Section ------*/
+  .download-button {
+    width: 60%;
+  }
+}
+
+
+/*--- REFERENCE AT
+https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/
+OR https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+---*/
