@@ -388,6 +388,10 @@ footer p {
   .downloads-empty {
     background-size: auto 60vw; /* go as width; there's also vh - go as height */
   }
+  #feature .feature-big-circle {
+    width: 18%;
+    padding-bottom: 18%;
+  }
 }
 
 
