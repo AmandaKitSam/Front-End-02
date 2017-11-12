@@ -57,19 +57,23 @@ $(document).ready(function() {
 // ----- Navbar Smooth Scroll -----
 var scroll = new SmoothScroll('a[href*="#about"]', {
   speed: 1000,
-  easing: 'easeInOutCubic'
+  easing: 'easeInOutCubic',
+  offset: 20 // Speac on the top
 });
 var scroll = new SmoothScroll('a[href*="#feature"]', {
   speed: 1000,
-  easing: 'easeInOutCubic'
+  easing: 'easeInOutCubic',
+  offset: 20
 });
 var scroll = new SmoothScroll('a[href*="#video"]', {
   speed: 1000,
-  easing: 'easeInOutCubic'
+  easing: 'easeInOutCubic',
+  offset: 50
 });
 var scroll = new SmoothScroll('a[href*="#screenshots"]', {
   speed: 1000,
-  easing: 'easeInOutCubic'
+  easing: 'easeInOutCubic',
+  offset: 20
 });
 var scroll = new SmoothScroll('a[href*="#support"]', {
   speed: 1000,

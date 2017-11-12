@@ -43,6 +43,12 @@ p {
   -moz-text-shadow: 1.5px 1.5px 1.5px black;
 }
 
+.nav > li.active {
+  background-color: #0875c9;
+  transition: 1.5s all ease;
+  border-radius: 30px;
+}
+
 .nav>li>a:hover,
 .nav>li>a:focus {
   background-color: transparent;
@@ -51,9 +57,9 @@ p {
 /*--- Nav for JS ---*/
 .effect {
   background-color: #0d4e80;
-  min-height: 30px;
+  min-height: 45px;
   box-shadow: 0 0 10px black;
-  padding-top: 5px;
+  padding-top: 0px; /* space at the top of navbar */
 }
 
 
