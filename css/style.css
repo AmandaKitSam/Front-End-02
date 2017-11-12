@@ -36,8 +36,9 @@ p {
 }
 
 .nav > li > a {
+  font-family: 'Francois One', sans-serif;
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.6em;
   text-shadow: 1.5px 1.5px 1.5px black;
   -webkit-text-shadow: 1.5px 1.5px 1.5px black;
   -moz-text-shadow: 1.5px 1.5px 1.5px black;
