@@ -39,6 +39,18 @@ $(document).ready(function() {
       offset: '50%'
     });
 
+  $('#feature .blue-circle').waypoint(function() {
+      $(this.element).addClass('animated fadeInUp');
+    }, {
+      offset: '50%'
+    });
+
+  $('.features-image img').waypoint(function() {
+      $(this.element).addClass('animated rubberBand');
+    }, {
+      offset: '50%'
+    });
+
   $('#download div.phone img').waypoint(function() {
       $(this.element).addClass('animated fadeInRight');
     }, {
