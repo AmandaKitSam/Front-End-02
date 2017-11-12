@@ -116,18 +116,24 @@ h3:after {
   color: #ffffff;
 }
 
-/* font awesome */
+/*-- font awesome --*/
 .blue-circle div i {
   font-size: 2em;
 }
 
+.large-font {
+  font-size: 34px;
+}
+
+/*-- Circle Sizes --*/
 #about .blue-circle {
   width: 18%;
   padding-bottom: 18%;
 }
 
-.large-font {
-  font-size: 34px;
+#feature .feature-big-circle {
+  width: 30%;
+  padding-bottom: 30%;
 }
 
 

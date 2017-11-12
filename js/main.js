@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('div#modal img').attr('src', $(this).attr('data-image-url'));
   });
 
+
   // ----- Navbar -----
   var nav = $('.navbar-fixed-top');
   // var distance = $('.navbar-fixed-top').offset();
