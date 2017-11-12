@@ -106,6 +106,7 @@ h3:after {
   margin: 0 auto;
 }
 
+/*-- icon --*/
 .blue-circle div {
   float: left;
   width: 100%;
@@ -119,6 +120,10 @@ h3:after {
 /*-- font awesome --*/
 .blue-circle div i {
   font-size: 2em;
+}
+
+.icon-mobile {
+  font-size: 1.3em;
 }
 
 .large-font {
