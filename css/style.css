@@ -217,7 +217,7 @@ section#video h2:after, h3:after {
 /*--------------- Parallax Section ---------------*/
 section#parallax {
   height: 500px;
-  background-image: url(../img/ipadApp.jpg);
+  background-image: url(../img/ipadApp.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
