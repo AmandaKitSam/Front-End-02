@@ -77,12 +77,12 @@ $(document).ready(function() {
 var scroll = new SmoothScroll('a[href*="#about"]', {
   speed: 1000,
   easing: 'easeInOutCubic',
-  offset: 20 // Speac on the top
+  offset: 0 // Speac on the top
 });
 var scroll = new SmoothScroll('a[href*="#feature"]', {
   speed: 1000,
   easing: 'easeInOutCubic',
-  offset: 20
+  offset: 0
 });
 var scroll = new SmoothScroll('a[href*="#video"]', {
   speed: 1000,
@@ -92,7 +92,7 @@ var scroll = new SmoothScroll('a[href*="#video"]', {
 var scroll = new SmoothScroll('a[href*="#screenshots"]', {
   speed: 1000,
   easing: 'easeInOutCubic',
-  offset: 20
+  offset: 0
 });
 var scroll = new SmoothScroll('a[href*="#support"]', {
   speed: 1000,
