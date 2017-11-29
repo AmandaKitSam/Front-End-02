@@ -211,6 +211,7 @@ section#video h2:after, h3:after {
   padding: 10px 50px;
   font-size: 1.3em;
   border-radius: 30px;
+  transition: all 0.4s ease-in-out;
 }
 
 
@@ -342,10 +343,18 @@ section#support textarea {
 
 section#support .btn-my-color {
   background: #0d4e80;
+  border: 1px solid #7eacd0;
   color: #ffffff;
   padding: 10px 50px;
   font-size: 1.4em;
   border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+section#support .btn-my-color:hover {
+  background-color: #003965;
+  border: 1px solid #002846;
+  transition: all 0.4s ease-in-out;
 }
 
 /* placeholder color */
@@ -364,11 +373,15 @@ section#support .btn-my-color {
 
 
 /*--------------- Footer Section ---------------*/
-footer p {
+footer {
   background-color: #222222;
+  padding: 10px 0 5px 0;
+}
+
+footer p {
   color: white;
+  font-size: 16px;
   padding: 20px 0;
-  margin: 0 auto;
 }
 
 
