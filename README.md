@@ -2,13 +2,19 @@
 
 ## By Amanda Sam
 
-### The project involves: HTML5, CSS3, Bootstrap, JavaScript and JS libraries
+### Built with HTML5, CSS3, Bootstrap, JavaScript and JS libraries
+
+### Requirement
+
+- Use your creativity to make a new "how to use" page
+
+- Only given a long block of text and no initial design to implement
 
 ### Overview:
 
-- THIS IS MY PROJECT OF FRONT-END
+- Wireframe => Design my own website with text provided
 
-- It's responsive web design
+- This is a responsive and mobile-friendly website.
 
 -------------------------------------------
 
