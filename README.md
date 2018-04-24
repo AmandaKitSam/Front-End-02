@@ -18,5 +18,5 @@
 
 -------------------------------------------
 
-Please visit the website:<br/>
+- Please visit the website:<br/>
 https://amandakitsam.github.io/Front-End-02/

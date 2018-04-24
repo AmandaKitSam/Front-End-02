@@ -25,6 +25,7 @@ $(document).ready(function() {
   });
   // ----- END Navbar -----
 
+
   // ----- Way Point -----
   $('#about .blue-circle').waypoint(function() {
     // console.log("You have entered the section");
@@ -98,19 +99,6 @@ var scroll = new SmoothScroll('a[href*="#support"]', {
   speed: 1000,
   easing: 'easeInOutCubic'
 });
-
-
-// ----- END Navbar Smooth Scroll -----
-
-
-
-
-
-
-
-
-
-
 
 
 // ----- END Navbar Smooth Scroll -----
